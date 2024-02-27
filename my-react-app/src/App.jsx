@@ -2,6 +2,7 @@ import Cards from "./Cards";
 import Student from "./Students";
 import UserGreatings from "./UserGreeting";
 import List from "./List";
+import Button from "./Button";
 
 //This is also a component but act as a parent component 
 
@@ -10,8 +11,11 @@ function App(){
     return(
 
             <>
-            <List/> 
+            <Button/>
             </>
+            
+            
+            //<List/> 
 
        // <UserGreatings isLoggedIn={false} username = "Minato Namikaze"/>
 
