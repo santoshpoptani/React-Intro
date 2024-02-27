@@ -7,6 +7,7 @@ import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import OnChangeEvent from "./OnChangeEvent";
 import ColourPicker from "./ColourPicker";
+import UpdateObjectState from "./UpdateObjectinstate";
 
 //This is also a component but act as a parent component 
 
@@ -15,8 +16,9 @@ function App(){
     return(
 
             <>
-          <ColourPicker/>
+          <UpdateObjectState/>
             </>
+            //<ColourPicker/>
             // <OnChangeEvent/>
             //<Counter/>
             //<MyComponent/>
