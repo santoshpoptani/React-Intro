@@ -5,6 +5,8 @@ import List from "./List";
 import Button from "./Button";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import OnChangeEvent from "./OnChangeEvent";
+import ColourPicker from "./ColourPicker";
 
 //This is also a component but act as a parent component 
 
@@ -13,8 +15,10 @@ function App(){
     return(
 
             <>
-           <Counter/>
+          <ColourPicker/>
             </>
+            // <OnChangeEvent/>
+            //<Counter/>
             //<MyComponent/>
             // <Button/>
             //<List/> 
