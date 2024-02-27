@@ -4,6 +4,7 @@ import UserGreatings from "./UserGreeting";
 import List from "./List";
 import Button from "./Button";
 import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 //This is also a component but act as a parent component 
 
@@ -12,9 +13,9 @@ function App(){
     return(
 
             <>
-           <MyComponent/>
+           <Counter/>
             </>
-            
+            //<MyComponent/>
             // <Button/>
             //<List/> 
 
