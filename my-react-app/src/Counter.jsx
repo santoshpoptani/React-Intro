@@ -1,17 +1,29 @@
 // A Counter Project
 
+// Using useUpdate hook of react 
+// The updater function in React is a function returned by the useState hook 
+//that is used to update the state variable to a new value
+
+//Allow for the safe Update based on the previous state USed with multiple state updates
+//and asyncherous function Good practise to use updater function
+
+//below setCount is udater function return by the useState hook
+
 import React ,{useState} from "react"
 
 function Counter(){
 
     const [count, setCount] = useState(0);
 
+    //refactor to updater function
     const increment = ()=>{
-        setCount(count+1)
+        //setCount(count+1)
+        setCount(c => c + 1);
     }
 
     const decrement = ()=>{
-            setCount(count-1)
+            //setCount(count-1)
+            setCount(c => c - 1)
     }
 
     const reset = ()=>{
