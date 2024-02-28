@@ -8,6 +8,7 @@ import Counter from "./Counter";
 import OnChangeEvent from "./OnChangeEvent";
 import ColourPicker from "./ColourPicker";
 import UpdateObjectState from "./UpdateObjectinstate";
+import UpdateArrayState from "./UpdateArrayState";
 
 //This is also a component but act as a parent component 
 
@@ -16,8 +17,9 @@ function App(){
     return(
 
             <>
-          <UpdateObjectState/>
+         <UpdateArrayState/>
             </>
+            // <UpdateObjectState/>
             //<ColourPicker/>
             // <OnChangeEvent/>
             //<Counter/>
