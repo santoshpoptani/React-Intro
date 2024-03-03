@@ -9,7 +9,7 @@ import OnChangeEvent from "./OnChangeEvent";
 import ColourPicker from "./ColourPicker";
 import UpdateObjectState from "./UpdateObjectinstate";
 import UpdateArrayState from "./UpdateArrayState";
-
+import ToDoList from "./ToDoList";
 //This is also a component but act as a parent component 
 
 function App(){
@@ -17,8 +17,9 @@ function App(){
     return(
 
             <>
-         <UpdateArrayState/>
+            <ToDoList/>
             </>
+            //<UpdateArrayState/>
             // <UpdateObjectState/>
             //<ColourPicker/>
             // <OnChangeEvent/>
