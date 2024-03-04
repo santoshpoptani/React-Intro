@@ -96,7 +96,7 @@ h1{
 h1{
   font-size: 4rem;
 }
-button{
+/* button{
   font-size: 1.7rem;
   font-weight: bold;
   padding: 10px 20px;
@@ -105,7 +105,7 @@ button{
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5 ease;
-}
+} */
 
 .add-button{
   background-color: hsl(120, 91%, 30%);
@@ -159,4 +159,8 @@ li{
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px;
+}
+
+p{
+  font-weight: bold;
 }

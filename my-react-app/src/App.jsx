@@ -10,6 +10,8 @@ import ColourPicker from "./ColourPicker";
 import UpdateObjectState from "./UpdateObjectinstate";
 import UpdateArrayState from "./UpdateArrayState";
 import ToDoList from "./ToDoList";
+import UseEffectP1 from "./UseEffectP1";
+import UseEffectP2 from "./UseEffectP2";
 //This is also a component but act as a parent component 
 
 function App(){
@@ -17,8 +19,10 @@ function App(){
     return(
 
             <>
-            <ToDoList/>
+            <UseEffectP1/>
+            <UseEffectP2/>
             </>
+            //<ToDoList/>
             //<UpdateArrayState/>
             // <UpdateObjectState/>
             //<ColourPicker/>
