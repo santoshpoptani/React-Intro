@@ -20,6 +20,7 @@ function Exercise1(){
             <button onClick={()=>fetxhExcuse("family")}>Family</button>
             <button onClick={()=>fetxhExcuse("office")}>Office</button>
             <br/>
+            <p>Category:{type}</p>
             <p>{generaetdExcuses}</p>
         </div>
     )
