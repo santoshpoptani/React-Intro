@@ -12,6 +12,7 @@ import UpdateArrayState from "./UpdateArrayState";
 import ToDoList from "./ToDoList";
 import UseEffectP1 from "./UseEffectP1";
 import UseEffectP2 from "./UseEffectP2";
+import Exercise1 from "./Exercise1";
 //This is also a component but act as a parent component 
 
 function App(){
@@ -19,9 +20,10 @@ function App(){
     return(
 
             <>
-            <UseEffectP1/>
-            <UseEffectP2/>
+            <Exercise1/>
             </>
+            //<UseEffectP1/>
+            //<UseEffectP2/>
             //<ToDoList/>
             //<UpdateArrayState/>
             // <UpdateObjectState/>
