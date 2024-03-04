@@ -13,6 +13,7 @@ import ToDoList from "./ToDoList";
 import UseEffectP1 from "./UseEffectP1";
 import UseEffectP2 from "./UseEffectP2";
 import Exercise1 from "./Exercise1";
+import ComponentA from "./UseEffect/ComponentA";
 //This is also a component but act as a parent component 
 
 function App(){
@@ -20,8 +21,9 @@ function App(){
     return(
 
             <>
-            <Exercise1/>
+            <ComponentA/>
             </>
+            //<Exercise1/>
             //<UseEffectP1/>
             //<UseEffectP2/>
             //<ToDoList/>
